@@ -12,11 +12,12 @@
       <a class="brand" href="index.html">Sternenbruch</a>
       <a href="datenschutz.html" aria-current="page">Datenschutz</a>
       <a href="impressum.html">Impressum</a>
+      <a class="lang" href="en/privacy.html" hreflang="en">English</a>
     </nav>
   </header>
   <main>
     <h1>Datenschutzerklärung</h1>
-    <p class="stand">Stand: 13. Juli 2026</p>
+    <p class="stand">Stand: 29. August 2026</p>
 
     <p>
       Diese Datenschutzerklärung informiert über die Verarbeitung personenbezogener
@@ -42,8 +43,8 @@
     </p>
     <p>
       Die App finanziert sich durch Werbung und verwendet freiwillig aktivierbare
-      Absturzberichte. Die dabei eingesetzten Google-Dienste werden in den folgenden
-      Abschnitten beschrieben.
+      Absturzberichte sowie eine freiwillig aktivierbare Spiel-Statistik. Die dabei
+      eingesetzten Google-Dienste werden in den folgenden Abschnitten beschrieben.
     </p>
 
     <h2>3. Einwilligungsverwaltung (Google UMP)</h2>
@@ -124,7 +125,43 @@
       Datenschutzinformationen von Firebase</a>.
     </p>
 
-    <h2>6. Datenübermittlung durch Google-Dienste</h2>
+    <h2>6. Freiwillige Spiel-Statistik (Firebase Analytics)</h2>
+    <p>
+      Die App verwendet <strong>Firebase Analytics</strong> von Google (der App-Client von
+      Google Analytics 4), um auszuwerten, wie das Spiel tatsächlich gespielt wird — etwa
+      wie häufig ein Durchlauf gewonnen wird und an welcher Welle er endet. Die Erfassung
+      ist standardmäßig deaktiviert und wird erst aktiviert, wenn Sie im
+      Einwilligungsdialog ausdrücklich zustimmen. Diese Entscheidung ist von der
+      Einwilligung in Absturzberichte unabhängig und kann jederzeit in den
+      App-Einstellungen widerrufen werden.
+    </p>
+    <p>
+      Bei aktivierter Erfassung übermittelt die App drei Ereignisse — Beginn eines
+      Durchlaufs (<code>run_start</code>), geschaffte Welle (<code>wave_cleared</code>) und
+      Ende eines Durchlaufs (<code>run_end</code>) — mit rein spielbezogenen Angaben:
+      Schwierigkeitsgrad, erreichte Welle, Sieg oder Niederlage, Dauer des Durchlaufs,
+      verbleibende Hüllenpunkte, gesammelte Credits, Anzahl der Abschüsse, Größe und
+      dominante Synergie des Decks, gewählter Startbonus, Spielerrang sowie die Anzahl der
+      bisher gespielten Durchläufe. Hinzu kommen die von Google Analytics automatisch
+      erhobenen Angaben, insbesondere eine pseudonyme App-Instanz-ID, Geräte- und
+      Betriebssystemtyp, App-Version, Sprache sowie eine aus der IP-Adresse abgeleitete
+      ungefähre Region.
+    </p>
+    <p>
+      Es werden keine Namen, E-Mail-Adressen, Kontodaten oder Freitexteingaben übermittelt;
+      die App hat keine Benutzerkonten. Die Auswertung erfolgt ausschließlich aggregiert zur
+      Verbesserung von Spielbalance und Schwierigkeitsgrad. Rechtsgrundlage ist Ihre
+      Einwilligung gemäß Art. 6 Abs. 1 lit. a DSGVO und, soweit auf dem Endgerät
+      gespeichert oder ausgelesen wird, § 25 Abs. 1 TDDDG. Die Speicherdauer richtet sich
+      nach den Einstellungen der Google-Analytics-Property.
+    </p>
+    <p>
+      Weitere Informationen finden Sie in den
+      <a href="https://firebase.google.com/support/privacy" rel="noopener noreferrer">
+      Datenschutzinformationen von Firebase</a>.
+    </p>
+
+    <h2>7. Datenübermittlung durch Google-Dienste</h2>
     <p>
       Bei UMP, AdMob und Firebase ist eine Verarbeitung durch Google LLC und weitere
       Auftragsverarbeiter außerhalb des Europäischen Wirtschaftsraums, insbesondere in
@@ -135,7 +172,7 @@
       den Löschregeln von Google.
     </p>
 
-    <h2>7. App-Stores und In-App-Bewertung</h2>
+    <h2>8. App-Stores und In-App-Bewertung</h2>
     <p>
       Die App wird über den Google Play Store beziehungsweise den Apple App Store
       angeboten. Download, Installation, Updates und Zahlungen werden vom jeweiligen
@@ -148,7 +185,7 @@
       <li><a href="https://www.apple.com/legal/privacy/" rel="noopener noreferrer">Datenschutzrichtlinie von Apple</a></li>
     </ul>
 
-    <h2>8. Externe Links (Discord)</h2>
+    <h2>9. Externe Links (Discord)</h2>
     <p>
       Die App enthält einen Link zu einem Discord-Server für Feedback und Austausch.
       Erst beim Öffnen des Links verlassen Sie die App; anschließend gelten die
@@ -157,7 +194,7 @@
       keine Daten an Discord übertragen.
     </p>
 
-    <h2>9. Bereitstellung dieser Website über GitHub Pages</h2>
+    <h2>10. Bereitstellung dieser Website über GitHub Pages</h2>
     <p>
       Diese Website wird als GitHub Pages-Website durch GitHub, Inc., 88 Colin P Kelly
       Jr Street, San Francisco, CA 94107, USA, bereitgestellt. Beim Abruf verarbeitet
@@ -175,7 +212,7 @@
       setzt selbst keine Analyse- oder Marketing-Cookies ein.
     </p>
 
-    <h2>10. Ihre Rechte</h2>
+    <h2>11. Ihre Rechte</h2>
     <p>Im Rahmen der gesetzlichen Voraussetzungen haben Sie insbesondere das Recht auf:</p>
     <ul>
       <li>Auskunft über die verarbeiteten Daten (Art. 15 DSGVO),</li>
@@ -195,7 +232,7 @@
       beschweren (Art. 77 DSGVO).
     </p>
 
-    <h2>11. Änderungen dieser Datenschutzerklärung</h2>
+    <h2>12. Änderungen dieser Datenschutzerklärung</h2>
     <p>
       Wir passen diese Datenschutzerklärung an, wenn sich Funktionen, eingesetzte
       Dienste oder rechtliche Anforderungen ändern. Die jeweils aktuelle Fassung ist
@@ -205,7 +242,8 @@
   <footer>
     © 2026 Lucas Riedhammer ·
     <a href="datenschutz.html">Datenschutz</a> ·
-    <a href="impressum.html">Impressum</a>
+    <a href="impressum.html">Impressum</a> ·
+    <a href="en/privacy.html" hreflang="en">English</a>
   </footer>
 </body>
 </html>

@@ -65,6 +65,8 @@ header.site a:not(.brand) {
 
 header.site a:not(.brand):hover { color: var(--accent); }
 
+header.site .lang { margin-left: auto; }
+
 h1 { font-size: 1.7rem; margin: 1.5rem 0 0.5rem; }
 h2 { font-size: 1.2rem; margin: 2rem 0 0.5rem; }
 
